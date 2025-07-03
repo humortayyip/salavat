@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Salavat Sayacı</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Sağ üst anlık güncelleme göstergesi -->
+  <div class="realtime-indicator">
+    <span class="dot"></span>
+    <span>Anlık güncelleniyor</span>
+  </div>
+
+  <!-- Ana içerik -->
+  <div class="container">
+    <h1>Salavat Sayacı</h1>
+
+    <div class="counter-wrapper">
+      <div id="totalCount" class="counter">0</div>
+    </div>
+
+    <div class="input-group">
+      <input type="number" id="inputCount" placeholder="Günlük sayı girin" />
+      <button id="addInputBtn">Ekle</button>
+    </div>
+
+    <button id="addOneBtn" class="single-add">اللهم صل على سيدنا محمد</button>
+
+    <div class="verse">
+      <span class="arabic">اللهم صل على سيدنا محمد</span>
+      <span class="translation">Allah'ım salât ve selam Peygamberimiz Hz. Muhammed'in (sav) üzerine olsun</span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
